@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CPAXT Q1/2569 Financial Snapshot</title>
+  <style>
+    :root {
+      --ink: #182026;
+      --muted: #66717a;
+      --line: #d8dee3;
+      --soft: #f5f7f8;
+      --green: #14764b;
+      --red: #a33a3a;
+      --blue: #1f5f8b;
+      --amber: #8a6500;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #eceff1;
+      color: var(--ink);
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      line-height: 1.42;
+    }
+    main {
+      width: min(1120px, calc(100% - 28px));
+      margin: 18px auto;
+      background: white;
+      border: 1px solid var(--line);
+      padding: 26px 30px 22px;
+    }
+    header {
+      display: grid;
+      grid-template-columns: 1.45fr 0.9fr;
+      gap: 20px;
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 16px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 30px;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      color: var(--blue);
+    }
+    p { margin: 0; }
+    .sub { color: var(--muted); font-size: 13px; }
+    .price-box {
+      border-left: 5px solid var(--blue);
+      background: var(--soft);
+      padding: 14px 16px;
+    }
+    .price {
+      display: flex;
+      align-items: baseline;
+      gap: 9px;
+      margin-bottom: 3px;
+    }
+    .price strong { font-size: 34px; }
+    .price span { color: var(--muted); font-size: 13px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin: 16px 0;
+    }
+    .metric {
+      border: 1px solid var(--line);
+      padding: 12px;
+      min-height: 94px;
+    }
+    .metric b {
+      display: block;
+      font-size: 21px;
+      margin: 3px 0;
+    }
+    .metric small { color: var(--muted); }
+    .up { color: var(--green); }
+    .down { color: var(--red); }
+    .flat { color: var(--amber); }
+    .content {
+      display: grid;
+      grid-template-columns: 1.18fr 0.82fr;
+      gap: 18px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 7px 8px;
+      vertical-align: top;
+    }
+    th {
+      background: var(--soft);
+      text-align: right;
+      color: #2d3a43;
+    }
+    th:first-child, td:first-child { text-align: left; }
+    td:not(:first-child) { text-align: right; white-space: nowrap; }
+    .panel {
+      border: 1px solid var(--line);
+      padding: 13px 14px;
+      margin-bottom: 12px;
+    }
+    .callout {
+      border: 2px solid var(--blue);
+      padding: 14px;
+      margin-bottom: 12px;
+    }
+    .callout .entry {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--blue);
+      margin: 2px 0 6px;
+    }
+    ul {
+      margin: 6px 0 0 18px;
+      padding: 0;
+      font-size: 13px;
+    }
+    li { margin: 4px 0; }
+    .note {
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 11.5px;
+    }
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border: 1px solid var(--line);
+      background: var(--soft);
+      margin-right: 4px;
+      font-size: 11px;
+      color: #34424c;
+    }
+    @media print {
+      body { background: white; }
+      main { width: 100%; margin: 0; border: 0; padding: 12mm; }
+    }
+    @media (max-width: 860px) {
+      header, .content { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <section>
+      <div class="tag">CPAXT</div><div class="tag">Q1/2569</div><div class="tag">งบรวม</div>
+      <h1>บริษัท ซีพี แอ็กซ์ตร้า จำกัด (มหาชน)</h1>
+      <p class="sub">สรุปจากงบการเงินระหว่างกาล 3 เดือนสิ้นสุด 31 มี.ค. 2569 ในโฟลเดอร์ Downloads และราคาตลาดล่าสุดที่ค้นได้ 29 พ.ค. 2569</p>
+    </section>
+    <aside class="price-box">
+      <div class="price"><strong>15.50</strong><span>บาท/หุ้น</span></div>
+      <p class="sub">ราคาล่าสุดจาก Investing.com ระบุข้อมูลล่าช้า 28/05; SET ที่เปิดอ่านได้ล่าสุดอยู่ที่ 14.80 บาท ณ 15 พ.ค. 2569</p>
+    </aside>
+  </header>
+
+  <section class="grid">
+    <div class="metric"><small>รายได้รวม</small><b>136.05 พันลบ.</b><small class="up">+4.7% YoY</small></div>
+    <div class="metric"><small>กำไรสุทธิส่วนบริษัทใหญ่</small><b>2.79 พันลบ.</b><small class="up">+5.7% YoY</small></div>
+    <div class="metric"><small>EPS Q1</small><b>0.27 บาท</b><small class="up">จาก 0.25 บาท</small></div>
+    <div class="metric"><small>P/E โดยประมาณ</small><b>~17.0x</b><small>อิง EPS TTM 0.91 บาท</small></div>
+  </section>
+
+  <section class="content">
+    <div>
+      <h2>สรุปรายได้และกำไร</h2>
+      <table>
+        <thead>
+          <tr><th>รายการ</th><th>Q1/2569</th><th>Q1/2568</th><th>YoY</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>รายได้จากการขายสินค้า</td><td>130.73</td><td>124.75</td><td class="up">+4.8%</td></tr>
+          <tr><td>รายได้บริการ</td><td>1.01</td><td>1.06</td><td class="down">-5.1%</td></tr>
+          <tr><td>ค่าเช่าและบริการศูนย์การค้า</td><td>3.62</td><td>3.49</td><td class="up">+3.8%</td></tr>
+          <tr><td>รายได้อื่น</td><td>0.69</td><td>0.65</td><td class="up">+5.6%</td></tr>
+          <tr><td><b>รวมรายได้</b></td><td><b>136.05</b></td><td><b>129.95</b></td><td class="up"><b>+4.7%</b></td></tr>
+          <tr><td>กำไรจากกิจกรรมดำเนินงาน</td><td>4.66</td><td>4.64</td><td class="flat">+0.4%</td></tr>
+          <tr><td>ต้นทุนทางการเงิน</td><td>1.29</td><td>1.40</td><td class="up">-8.1%</td></tr>
+          <tr><td><b>กำไรสุทธิส่วนบริษัทใหญ่</b></td><td><b>2.79</b></td><td><b>2.64</b></td><td class="up"><b>+5.7%</b></td></tr>
+        </tbody>
+      </table>
+      <p class="sub" style="margin-top:6px">หน่วย: พันล้านบาท ยกเว้น EPS และอัตราส่วน</p>
+    </div>
+
+    <aside>
+      <div class="callout">
+        <h2>ราคาเข้าที่เหมาะสม</h2>
+        <div class="entry">13.80-14.80 บาท</div>
+        <p>เหมาะกับทยอยสะสมเมื่อราคากลับมาใกล้กรอบล่าง 52 สัปดาห์ และให้ P/E ประมาณ 15-16x จาก EPS TTM 0.91 บาท หรือมี margin of safety เทียบราคาเป้าหมายเฉลี่ย 16.36 บาท</p>
+      </div>
+      <div class="panel">
+        <h2>มุมมองลงทุน</h2>
+        <ul>
+          <li><b>บวก:</b> รายได้โตต่อ, กำไรสุทธิโตเร็วกว่ารายได้เล็กน้อย, ดอกเบี้ยลดลง, กระแสเงินสดดำเนินงาน +42.7% YoY</li>
+          <li><b>กลาง:</b> กำไรจากดำเนินงานแทบทรงตัว สะท้อน margin ยังถูกกดดัน</li>
+          <li><b>ลบ:</b> goodwill สูง 237.75 พันลบ. ทำให้ส่วนของผู้ถือหุ้นเชิงบัญชีดูหนา แต่ tangible equity ต่ำกว่ามาก</li>
+          <li><b>กลยุทธ์:</b> ซื้อแบบแบ่งไม้ 14.8 / 14.2 / 13.8; ลดน้ำหนักถ้าหลุด 13.5 พร้อมงบถัดไปไม่ฟื้น</li>
+        </ul>
+      </div>
+    </aside>
+  </section>
+
+  <section class="content" style="margin-top:4px">
+    <div class="panel">
+      <h2>ฐานะการเงิน</h2>
+      <ul>
+        <li>สินทรัพย์รวม 571.54 พันลบ. ลดลง 0.9% จากสิ้นปี 2568</li>
+        <li>หนี้สินรวม 267.27 พันลบ. ลดลง 3.3%; D/E รวมประมาณ 0.88x</li>
+        <li>เงินสด 12.04 พันลบ.; หนี้สินมีดอกเบี้ยไม่รวม lease ประมาณ 112.16 พันลบ.; net debt/equity ประมาณ 0.33x</li>
+        <li>กระแสเงินสดจากกิจกรรมดำเนินงาน 5.85 พันลบ. ดีขึ้นจาก 4.10 พันลบ.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h2>เช็คก่อนซื้อ</h2>
+      <ul>
+        <li>รอดู Q2/2569 ว่า margin ขั้นต้นกลับขึ้นได้หรือไม่</li>
+        <li>ติดตามยอดขายสาขาเดิม Makro/Lotus's และภาระดอกเบี้ยหลัง refinance</li>
+        <li>ราคาปัจจุบันใกล้ราคาเป้าหมายเฉลี่ย จึงควรเน้นจังหวะย่อตัวมากกว่าไล่ราคา</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="note">
+    แหล่งข้อมูล: FINANCIAL_STATEMENTS.XLSX, NOTES.DOCX, AUDITOR_REPORT.DOCX ใน Downloads; SET quote page; StockAnalysis BKK:CPAXT; Investing.com CPAXT. เอกสารนี้เป็นการวิเคราะห์เพื่อการศึกษา ไม่ใช่คำแนะนำการลงทุนส่วนบุคคล
+  </p>
+</main>
+</body>
+</html>
